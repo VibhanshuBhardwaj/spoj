@@ -18,7 +18,7 @@ bool isPrime(int x) {
 }
 
 int main() {
-	removeFirstLine();]
+	removeFirstLine();
 	int x, y;
 	while ((cin >> x) && (cin >> y)) { //better innit?
 		for (int i = x; i<=y; i++) {
