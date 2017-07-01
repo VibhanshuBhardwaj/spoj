@@ -20,7 +20,7 @@ bool isPrime(int x) {
 int main() {
 	removeFirstLine();]
 	int x, y;
-	while ((cin >> x) && (cin >> y)) {
+	while ((cin >> x) && (cin >> y)) { //better innit?
 		for (int i = x; i<=y; i++) {
 			bool isP = isPrime(i);
 			if (isPrime(i)) cout << i << endl;

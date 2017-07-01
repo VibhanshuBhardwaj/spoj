@@ -24,32 +24,22 @@ int reverse(int i) {
 			retval = retval + given[k];
 		}
 	}
-	
 	return stoi(retval);
 }
 int main() {
 	string trash;
 	cin >> trash;
-	//cout << "trash: " << trash << endl;
 	string s;
+	//what follows is a bad way to be reading 2 integers from stdin. for better way see PRIME.CPP
 	while(getline(cin, s)) {
-		//cout << "got line" << s << endl;
 		istringstream ss(s);
 		int x, y;
 		if ((ss >> x) && (ss >> y)){
-		
-		//cout << "x: " << x << endl;
-		//cout << "y: " << y << endl;
-
-	//	cout <<"reverse x" << reverse(x) << endl;
-	//	cout <<"reverse y"<< reverse(y) << endl;
 			int added = reverse(x) + reverse(y);
 			cout << reverse(added) << endl;
 		}
 
 	}
-	// your code goes here
-	
 	return 0;
 }
 
