@@ -9,56 +9,56 @@ using namespace std;
 class BigNumber {
 	
 public:
-	vector<long > *arr;
+	vector<int > *arr;
 	BigNumber() {
-		arr = new vector<long >();
+		arr = new vector<int >();
  	}
- 	long size() {
+ 	int size() {
  		return arr->size();
  	}
- 	long at(long i) {
+ 	int at(int i) {
  		return arr->at(i);
  	}
- 	BigNumber(long n) {
- 		arr = new vector<long >();
+ 	BigNumber(int n) {
+ 		arr = new vector<int >();
  		string s = to_string(n);
- 		for (long k = s.length() - 1; k >=0 ; k-- ) {
- 			long i = s[k] - '0';
+ 		for (int k = s.length() - 1; k >=0 ; k-- ) {
+ 			int i = s[k] - '0';
  		//	cout << "pushing back " << i << endl;
  			arr->push_back(i);
  		}
  	}
 
- 	string intToString(long input) {
+ 	string intToString(int input) {
 		ostringstream ss;
 		ss << input;
 		return ss.str();
 		}
-	long toInt(string s) {
+	int toInt(string s) {
 		istringstream ss(s);
-		long r;
+		int r;
 		ss >> r;
 		return r;
 	}
-	long toInt(char c) {
-		long ret = c - '0';
+	int toInt(char c) {
+		int ret = c - '0';
 		return ret;
 	}
 
- 	BigNumber* operator*(long k) {
- 		long carry = 0;
- 		long ogsize =  arr->size();
- 		for (long i = 0 ; i < ogsize; i++) {
- 			long digit_multip = this->at(i) * k ;
- 			long net = digit_multip + carry;
- 			long units_place = net % 10;
+ 	BigNumber* operator*(int k) {
+ 		int carry = 0;
+ 		int ogsize =  arr->size();
+ 		for (int i = 0 ; i < ogsize; i++) {
+ 			int digit_multip = this->at(i) * k ;
+ 			int net = digit_multip + carry;
+ 			int units_place = net % 10;
  			(*arr)[i] = units_place;
  			carry = net /10;
 
  		}
  		if (carry > 0) {
  			string sval = intToString(carry);
- 			for (long i = sval.length()-1; i >=0 ; i--) {
+ 			for (int i = sval.length()-1; i >=0 ; i--) {
  				arr->push_back(toInt(sval[i]));
  			}
  		}
@@ -75,7 +75,7 @@ public:
  	}
  
  	void prettyPrint() {
- 		for (long i = arr->size()-1; i>=0; i--) {
+ 		for (int i = arr->size()-1; i>=0; i--) {
  			cout << arr->at(i);
  		} 
  		cout << endl;
@@ -89,10 +89,10 @@ void removeFirstLine() {
 }
 
 
-BigNumber* factorial(long n) {
+BigNumber* factorial(int n) {
 	if (n == 0) return new BigNumber(1);
 	BigNumber * bn = new BigNumber(1);
-	for (long i = 1; i <=n ; i++) bn = (*bn)*i;
+	for (int i = 1; i <=n ; i++) bn = (*bn)*i;
 	return bn;
 }
 int main() {

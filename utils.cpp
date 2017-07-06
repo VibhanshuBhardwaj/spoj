@@ -2,6 +2,8 @@
 #include <string>
 #include <sstream>
 #include <vector>
+#include <stack>
+#include <algorithm>
 
 using namespace std;
 
@@ -28,7 +30,7 @@ int toInt(char c) {
 }
 
 int main() {
-	
+	removeFirstLine();
 	// your code here
 
 	return 0;
