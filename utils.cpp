@@ -4,7 +4,7 @@
 #include <vector>
 #include <stack>
 #include <algorithm>
-
+#include <map>
 using namespace std;
 
 void removeFirstLine() {
