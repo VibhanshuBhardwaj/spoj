@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TOANDFRO.dir/TOANDFRO.cpp.o"
+  "CMakeFiles/TOANDFRO.dir/AE00.cpp.o"
   "TOANDFRO.pdb"
   "TOANDFRO"
 )

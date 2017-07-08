@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/vbhardwaj/Desktop/Spoj/AE00.cpp" "/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles/TOANDFRO.dir/AE00.cpp.o"
-  "/Users/vbhardwaj/Desktop/Spoj/TOANDFRO.cpp" "/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles/TOANDFRO.dir/TOANDFRO.cpp.o"
+  "/Users/vbhardwaj/Desktop/Spoj/AE00.cpp" "/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles/AE00.dir/AE00.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

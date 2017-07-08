@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TOANDFRO
+# Target rules for targets named AE00
 
 # Build rule for target.
-TOANDFRO: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TOANDFRO
-.PHONY : TOANDFRO
+AE00: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AE00
+.PHONY : AE00
 
 # fast build rule for target.
-TOANDFRO/fast:
-	$(MAKE) -f CMakeFiles/TOANDFRO.dir/build.make CMakeFiles/TOANDFRO.dir/build
-.PHONY : TOANDFRO/fast
+AE00/fast:
+	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/build
+.PHONY : AE00/fast
 
-TOANDFRO.o: TOANDFRO.cpp.o
+AE00.o: AE00.cpp.o
 
-.PHONY : TOANDFRO.o
+.PHONY : AE00.o
 
 # target to build an object file
-TOANDFRO.cpp.o:
-	$(MAKE) -f CMakeFiles/TOANDFRO.dir/build.make CMakeFiles/TOANDFRO.dir/TOANDFRO.cpp.o
-.PHONY : TOANDFRO.cpp.o
+AE00.cpp.o:
+	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/AE00.cpp.o
+.PHONY : AE00.cpp.o
 
-TOANDFRO.i: TOANDFRO.cpp.i
+AE00.i: AE00.cpp.i
 
-.PHONY : TOANDFRO.i
+.PHONY : AE00.i
 
 # target to preprocess a source file
-TOANDFRO.cpp.i:
-	$(MAKE) -f CMakeFiles/TOANDFRO.dir/build.make CMakeFiles/TOANDFRO.dir/TOANDFRO.cpp.i
-.PHONY : TOANDFRO.cpp.i
+AE00.cpp.i:
+	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/AE00.cpp.i
+.PHONY : AE00.cpp.i
 
-TOANDFRO.s: TOANDFRO.cpp.s
+AE00.s: AE00.cpp.s
 
-.PHONY : TOANDFRO.s
+.PHONY : AE00.s
 
 # target to generate assembly for a file
-TOANDFRO.cpp.s:
-	$(MAKE) -f CMakeFiles/TOANDFRO.dir/build.make CMakeFiles/TOANDFRO.dir/TOANDFRO.cpp.s
-.PHONY : TOANDFRO.cpp.s
+AE00.cpp.s:
+	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/AE00.cpp.s
+.PHONY : AE00.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TOANDFRO"
-	@echo "... TOANDFRO.o"
-	@echo "... TOANDFRO.i"
-	@echo "... TOANDFRO.s"
+	@echo "... AE00"
+	@echo "... AE00.o"
+	@echo "... AE00.i"
+	@echo "... AE00.s"
 .PHONY : help
 
 

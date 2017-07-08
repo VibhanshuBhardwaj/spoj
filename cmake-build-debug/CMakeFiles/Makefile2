@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/vbhardwaj/Desktop/Spoj
 CMAKE_BINARY_DIR = /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/TOANDFRO.dir
+# Target rules for target CMakeFiles/AE00.dir
 
 # All Build rule for target.
-CMakeFiles/TOANDFRO.dir/all:
-	$(MAKE) -f CMakeFiles/TOANDFRO.dir/build.make CMakeFiles/TOANDFRO.dir/depend
-	$(MAKE) -f CMakeFiles/TOANDFRO.dir/build.make CMakeFiles/TOANDFRO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TOANDFRO"
-.PHONY : CMakeFiles/TOANDFRO.dir/all
+CMakeFiles/AE00.dir/all:
+	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/depend
+	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AE00"
+.PHONY : CMakeFiles/AE00.dir/all
 
 # Include target in all.
-all: CMakeFiles/TOANDFRO.dir/all
+all: CMakeFiles/AE00.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TOANDFRO.dir/rule: cmake_check_build_system
+CMakeFiles/AE00.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TOANDFRO.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AE00.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TOANDFRO.dir/rule
+.PHONY : CMakeFiles/AE00.dir/rule
 
 # Convenience name for target.
-TOANDFRO: CMakeFiles/TOANDFRO.dir/rule
+AE00: CMakeFiles/AE00.dir/rule
 
-.PHONY : TOANDFRO
-
-# clean rule for target.
-CMakeFiles/TOANDFRO.dir/clean:
-	$(MAKE) -f CMakeFiles/TOANDFRO.dir/build.make CMakeFiles/TOANDFRO.dir/clean
-.PHONY : CMakeFiles/TOANDFRO.dir/clean
+.PHONY : AE00
 
 # clean rule for target.
-clean: CMakeFiles/TOANDFRO.dir/clean
+CMakeFiles/AE00.dir/clean:
+	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/clean
+.PHONY : CMakeFiles/AE00.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AE00.dir/clean
 
 .PHONY : clean
 

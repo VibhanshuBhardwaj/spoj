@@ -69,12 +69,7 @@ int main() {
             //in column c, all i for which (i%n_columns*2) == c or N_columns*2 - (i%n_columns) + 1 == c
         }
 
-        for (int i = 0; i < n_columns; i++) {
-
-
-
-            cout << columns[i];
-        }
+        for (int i = 0; i < n_columns; i++)  cout << columns[i];
         cout << endl;
 
 

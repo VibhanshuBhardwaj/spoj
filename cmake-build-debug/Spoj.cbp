@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TOANDFRO">
-				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/TOANDFRO" prefix_auto="0" extension_auto="0"/>
+			<Target title="AE00">
+				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/AE00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 TOANDFRO"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 AE00"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TOANDFRO/fast">
-				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/TOANDFRO" prefix_auto="0" extension_auto="0"/>
+			<Target title="AE00/fast">
+				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/AE00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,15 +75,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 TOANDFRO/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 AE00/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/TOANDFRO.cpp">
-			<Option target="TOANDFRO"/>
+		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/AE00.cpp">
+			<Option target="AE00"/>
 		</Unit>
 		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
