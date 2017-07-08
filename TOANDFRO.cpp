@@ -71,6 +71,8 @@ int main() {
 
         for (int i = 0; i < n_columns; i++) {
 
+
+
             cout << columns[i];
         }
         cout << endl;
