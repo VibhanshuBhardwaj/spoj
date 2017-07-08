@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vbhardwaj/Desktop/Spoj/TOANDFRO.cpp
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+stack
+-
+algorithm
+-
+map
+-
+

@@ -1,0 +1,2 @@
+Options: 
+CMake: 3.7.2@/private/var/folders/ml/f552nydj4g187pzdpg5pq_w00000gn/T/AppTranslocation/420C3C81-F48C-4A55-880C-C882D841B32A/d/CLion.app/Contents/bin/cmake/bin/cmake
