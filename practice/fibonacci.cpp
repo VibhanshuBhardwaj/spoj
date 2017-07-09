@@ -51,6 +51,8 @@ int fib_mem(int n) { //memoization
     }
     return a+b;
 }
+
+
 int fib_tab(int n) { //tabulation
     int arr[n];
     arr[0]=0;
