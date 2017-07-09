@@ -41,7 +41,7 @@ int main() {
     unsigned int n;
     while (cin >> n) {
         unsigned int *arr = new unsigned int[n+1];
-        for (unsigned int i =0 ;i <= n; i++) {
+        for (long i =0 ;i <= n; i++) {
             arr[i] = i;
             unsigned int half = i /2;
             unsigned int third = i/3;
