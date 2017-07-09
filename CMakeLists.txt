@@ -15,7 +15,7 @@ set(SOURCE_FILES
         PRIME.cpp
         README.md
         SAMER08F.cc
-        utils.cpp TOANDFRO.cpp AE00.cpp)
+        utils.cpp TOANDFRO.cpp AE00.cpp LASTDIG.cpp)
 
 
-add_executable(AE00 AE00.cpp)
+add_executable(LASTDIG LASTDIG.cpp)

@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/vbhardwaj/Desktop/Spoj
 CMAKE_BINARY_DIR = /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/AE00.dir
+# Target rules for target CMakeFiles/LASTDIG.dir
 
 # All Build rule for target.
-CMakeFiles/AE00.dir/all:
-	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/depend
-	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AE00"
-.PHONY : CMakeFiles/AE00.dir/all
+CMakeFiles/LASTDIG.dir/all:
+	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/depend
+	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LASTDIG"
+.PHONY : CMakeFiles/LASTDIG.dir/all
 
 # Include target in all.
-all: CMakeFiles/AE00.dir/all
+all: CMakeFiles/LASTDIG.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AE00.dir/rule: cmake_check_build_system
+CMakeFiles/LASTDIG.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AE00.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LASTDIG.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/AE00.dir/rule
+.PHONY : CMakeFiles/LASTDIG.dir/rule
 
 # Convenience name for target.
-AE00: CMakeFiles/AE00.dir/rule
+LASTDIG: CMakeFiles/LASTDIG.dir/rule
 
-.PHONY : AE00
-
-# clean rule for target.
-CMakeFiles/AE00.dir/clean:
-	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/clean
-.PHONY : CMakeFiles/AE00.dir/clean
+.PHONY : LASTDIG
 
 # clean rule for target.
-clean: CMakeFiles/AE00.dir/clean
+CMakeFiles/LASTDIG.dir/clean:
+	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/clean
+.PHONY : CMakeFiles/LASTDIG.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LASTDIG.dir/clean
 
 .PHONY : clean
 

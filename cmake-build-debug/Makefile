@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AE00
+# Target rules for targets named LASTDIG
 
 # Build rule for target.
-AE00: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AE00
-.PHONY : AE00
+LASTDIG: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LASTDIG
+.PHONY : LASTDIG
 
 # fast build rule for target.
-AE00/fast:
-	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/build
-.PHONY : AE00/fast
+LASTDIG/fast:
+	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/build
+.PHONY : LASTDIG/fast
 
-AE00.o: AE00.cpp.o
+LASTDIG.o: LASTDIG.cpp.o
 
-.PHONY : AE00.o
+.PHONY : LASTDIG.o
 
 # target to build an object file
-AE00.cpp.o:
-	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/AE00.cpp.o
-.PHONY : AE00.cpp.o
+LASTDIG.cpp.o:
+	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/LASTDIG.cpp.o
+.PHONY : LASTDIG.cpp.o
 
-AE00.i: AE00.cpp.i
+LASTDIG.i: LASTDIG.cpp.i
 
-.PHONY : AE00.i
+.PHONY : LASTDIG.i
 
 # target to preprocess a source file
-AE00.cpp.i:
-	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/AE00.cpp.i
-.PHONY : AE00.cpp.i
+LASTDIG.cpp.i:
+	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/LASTDIG.cpp.i
+.PHONY : LASTDIG.cpp.i
 
-AE00.s: AE00.cpp.s
+LASTDIG.s: LASTDIG.cpp.s
 
-.PHONY : AE00.s
+.PHONY : LASTDIG.s
 
 # target to generate assembly for a file
-AE00.cpp.s:
-	$(MAKE) -f CMakeFiles/AE00.dir/build.make CMakeFiles/AE00.dir/AE00.cpp.s
-.PHONY : AE00.cpp.s
+LASTDIG.cpp.s:
+	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/LASTDIG.cpp.s
+.PHONY : LASTDIG.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... AE00"
-	@echo "... AE00.o"
-	@echo "... AE00.i"
-	@echo "... AE00.s"
+	@echo "... LASTDIG"
+	@echo "... LASTDIG.o"
+	@echo "... LASTDIG.i"
+	@echo "... LASTDIG.s"
 .PHONY : help
 
 
