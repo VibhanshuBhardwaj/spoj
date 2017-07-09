@@ -35,36 +35,33 @@ int toInt(char c) {
     return c - '0';
 }
 
+int howMany(int area) {
+    return area /2 ;
+   // while()
+}
+//how many possible rectangles when one side is one particular value
 int main() {
     //removeFirstLine();
     // your code here
     int n;
-    vector<set<int> > v;
+
     cin >> n;
-        int count = 0;
-        for (int l = 1; l <=n; l++) {
-            for (int b = 1; b <=n ; b++) {
-                if ((l*b) <= n) {
-                    set <int> s ;
-                    s.insert(l);
-                    s.insert(b);
+    int count = 0;
+    int area = n;
+    while (area > 0) {
+        vector <int> seen;
+        for (int side = 1; side <= area; side++) {
 
-//                    pair <int, int> p(l, b);
-//                    pair <int, int> q(b, l);
-//
-//                    vector<pair<int, int> >::iterator itp = find (v.begin(), v.end(), p);
-//                    vector<pair<int, int> >::iterator itq = find (v.begin(), v.end(), q);
-                    vector<set<int> >::iterator it = find (v.begin(), v.end(), s);
-                    if ( it == v.end()) {
-                        v.push_back(s);
-                       // v.push_back(q);
-                        count++;
-                    }
+            if ((area % side) == 0) {//can make rectangle
+
+                vector<int>::iterator it = find(seen.begin(), seen.end(), side);
+                if (it == seen.end()) {
+                    seen.push_back(area / side);
+                    count++;
                 }
-
             }
         }
-        cout << count;
-       // return 0;
-    return 0;
+        area--;
+    }
+    cout << count;
 }
