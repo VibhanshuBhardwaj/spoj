@@ -2,6 +2,8 @@
 // Created by Vibhanshu Bhardwaj on 8/1/17.
 //
 
+//TODO: DO AGAIN
+
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -37,7 +39,9 @@ int main() {
     unsigned long long int read;
     while (cin >> read) {
         unsigned long long int n250s = read - 1;
-        unsigned long long int result = n250s*250 + 192;
+
+        unsigned long long int result = n250s * 250 + 192;
+
         cout << result << endl;
     }
     // your code here
