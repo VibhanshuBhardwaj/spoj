@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LASTDIG">
-				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/LASTDIG" prefix_auto="0" extension_auto="0"/>
+			<Target title="JULKA">
+				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/JULKA" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 LASTDIG"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 JULKA"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="LASTDIG/fast">
-				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/LASTDIG" prefix_auto="0" extension_auto="0"/>
+			<Target title="JULKA/fast">
+				<Option output="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/JULKA" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,15 +75,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 LASTDIG/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 JULKA/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/LASTDIG.cpp">
-			<Option target="LASTDIG"/>
+		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/CANDY3.cpp">
+			<Option target="JULKA"/>
+		</Unit>
+		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/EIGHTS.cpp">
+			<Option target="JULKA"/>
+		</Unit>
+		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/JULKA.cpp">
+			<Option target="JULKA"/>
 		</Unit>
 		<Unit filename="/Users/vbhardwaj/Desktop/Spoj/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

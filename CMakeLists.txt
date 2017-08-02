@@ -18,4 +18,4 @@ set(SOURCE_FILES
         utils.cpp TOANDFRO.cpp AE00.cpp LASTDIG.cpp)
 
 
-add_executable(LASTDIG LASTDIG.cpp)
+add_executable(JULKA JULKA.cpp CANDY3.cpp EIGHTS.cpp)

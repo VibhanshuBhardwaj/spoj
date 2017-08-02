@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/vbhardwaj/Desktop/Spoj/LASTDIG.cpp" "/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles/LASTDIG.dir/LASTDIG.cpp.o"
+  "/Users/vbhardwaj/Desktop/Spoj/CANDY3.cpp" "/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles/JULKA.dir/CANDY3.cpp.o"
+  "/Users/vbhardwaj/Desktop/Spoj/EIGHTS.cpp" "/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles/JULKA.dir/EIGHTS.cpp.o"
+  "/Users/vbhardwaj/Desktop/Spoj/JULKA.cpp" "/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles/JULKA.dir/JULKA.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -64,7 +64,7 @@ public:
  		}
  		return this;
  	}
- void print() {
+    void print() {
  		cout << "raw printitng " << endl;
  		cout << "[ ";
  		for (int i = 0 ; i<arr->size(); i++) {
@@ -95,6 +95,7 @@ BigNumber* factorial(int n) {
 	for (int i = 1; i <=n ; i++) bn = (*bn)*i;
 	return bn;
 }
+
 int main() {
 	removeFirstLine();
 	int x;

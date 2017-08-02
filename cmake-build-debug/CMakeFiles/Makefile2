@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/ml/f552nydj4g187pzdpg5pq_w00000gn/T/AppTranslocation/420C3C81-F48C-4A55-880C-C882D841B32A/d/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/ml/f552nydj4g187pzdpg5pq_w00000gn/T/AppTranslocation/420C3C81-F48C-4A55-880C-C882D841B32A/d/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/vbhardwaj/Desktop/Spoj
 CMAKE_BINARY_DIR = /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/LASTDIG.dir
+# Target rules for target CMakeFiles/JULKA.dir
 
 # All Build rule for target.
-CMakeFiles/LASTDIG.dir/all:
-	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/depend
-	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LASTDIG"
-.PHONY : CMakeFiles/LASTDIG.dir/all
+CMakeFiles/JULKA.dir/all:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/depend
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target JULKA"
+.PHONY : CMakeFiles/JULKA.dir/all
 
 # Include target in all.
-all: CMakeFiles/LASTDIG.dir/all
+all: CMakeFiles/JULKA.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LASTDIG.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LASTDIG.dir/all
+CMakeFiles/JULKA.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/JULKA.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/LASTDIG.dir/rule
+.PHONY : CMakeFiles/JULKA.dir/rule
 
 # Convenience name for target.
-LASTDIG: CMakeFiles/LASTDIG.dir/rule
+JULKA: CMakeFiles/JULKA.dir/rule
 
-.PHONY : LASTDIG
-
-# clean rule for target.
-CMakeFiles/LASTDIG.dir/clean:
-	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/clean
-.PHONY : CMakeFiles/LASTDIG.dir/clean
+.PHONY : JULKA
 
 # clean rule for target.
-clean: CMakeFiles/LASTDIG.dir/clean
+CMakeFiles/JULKA.dir/clean:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/clean
+.PHONY : CMakeFiles/JULKA.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/JULKA.dir/clean
 
 .PHONY : clean
 

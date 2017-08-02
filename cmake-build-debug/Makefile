@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/ml/f552nydj4g187pzdpg5pq_w00000gn/T/AppTranslocation/420C3C81-F48C-4A55-880C-C882D841B32A/d/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/ml/f552nydj4g187pzdpg5pq_w00000gn/T/AppTranslocation/420C3C81-F48C-4A55-880C-C882D841B32A/d/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/vbhardwaj/Desktop/Spoj/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/ml/f552nydj4g187pzdpg5pq_w00000gn/T/AppTranslocation/420C3C81-F48C-4A55-880C-C882D841B32A/d/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/ml/f552nydj4g187pzdpg5pq_w00000gn/T/AppTranslocation/420C3C81-F48C-4A55-880C-C882D841B32A/d/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,44 +111,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LASTDIG
+# Target rules for targets named JULKA
 
 # Build rule for target.
-LASTDIG: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LASTDIG
-.PHONY : LASTDIG
+JULKA: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JULKA
+.PHONY : JULKA
 
 # fast build rule for target.
-LASTDIG/fast:
-	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/build
-.PHONY : LASTDIG/fast
+JULKA/fast:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/build
+.PHONY : JULKA/fast
 
-LASTDIG.o: LASTDIG.cpp.o
+CANDY3.o: CANDY3.cpp.o
 
-.PHONY : LASTDIG.o
+.PHONY : CANDY3.o
 
 # target to build an object file
-LASTDIG.cpp.o:
-	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/LASTDIG.cpp.o
-.PHONY : LASTDIG.cpp.o
+CANDY3.cpp.o:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/CANDY3.cpp.o
+.PHONY : CANDY3.cpp.o
 
-LASTDIG.i: LASTDIG.cpp.i
+CANDY3.i: CANDY3.cpp.i
 
-.PHONY : LASTDIG.i
+.PHONY : CANDY3.i
 
 # target to preprocess a source file
-LASTDIG.cpp.i:
-	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/LASTDIG.cpp.i
-.PHONY : LASTDIG.cpp.i
+CANDY3.cpp.i:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/CANDY3.cpp.i
+.PHONY : CANDY3.cpp.i
 
-LASTDIG.s: LASTDIG.cpp.s
+CANDY3.s: CANDY3.cpp.s
 
-.PHONY : LASTDIG.s
+.PHONY : CANDY3.s
 
 # target to generate assembly for a file
-LASTDIG.cpp.s:
-	$(MAKE) -f CMakeFiles/LASTDIG.dir/build.make CMakeFiles/LASTDIG.dir/LASTDIG.cpp.s
-.PHONY : LASTDIG.cpp.s
+CANDY3.cpp.s:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/CANDY3.cpp.s
+.PHONY : CANDY3.cpp.s
+
+EIGHTS.o: EIGHTS.cpp.o
+
+.PHONY : EIGHTS.o
+
+# target to build an object file
+EIGHTS.cpp.o:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/EIGHTS.cpp.o
+.PHONY : EIGHTS.cpp.o
+
+EIGHTS.i: EIGHTS.cpp.i
+
+.PHONY : EIGHTS.i
+
+# target to preprocess a source file
+EIGHTS.cpp.i:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/EIGHTS.cpp.i
+.PHONY : EIGHTS.cpp.i
+
+EIGHTS.s: EIGHTS.cpp.s
+
+.PHONY : EIGHTS.s
+
+# target to generate assembly for a file
+EIGHTS.cpp.s:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/EIGHTS.cpp.s
+.PHONY : EIGHTS.cpp.s
+
+JULKA.o: JULKA.cpp.o
+
+.PHONY : JULKA.o
+
+# target to build an object file
+JULKA.cpp.o:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/JULKA.cpp.o
+.PHONY : JULKA.cpp.o
+
+JULKA.i: JULKA.cpp.i
+
+.PHONY : JULKA.i
+
+# target to preprocess a source file
+JULKA.cpp.i:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/JULKA.cpp.i
+.PHONY : JULKA.cpp.i
+
+JULKA.s: JULKA.cpp.s
+
+.PHONY : JULKA.s
+
+# target to generate assembly for a file
+JULKA.cpp.s:
+	$(MAKE) -f CMakeFiles/JULKA.dir/build.make CMakeFiles/JULKA.dir/JULKA.cpp.s
+.PHONY : JULKA.cpp.s
 
 # Help Target
 help:
@@ -158,10 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... LASTDIG"
-	@echo "... LASTDIG.o"
-	@echo "... LASTDIG.i"
-	@echo "... LASTDIG.s"
+	@echo "... JULKA"
+	@echo "... CANDY3.o"
+	@echo "... CANDY3.i"
+	@echo "... CANDY3.s"
+	@echo "... EIGHTS.o"
+	@echo "... EIGHTS.i"
+	@echo "... EIGHTS.s"
+	@echo "... JULKA.o"
+	@echo "... JULKA.i"
+	@echo "... JULKA.s"
 .PHONY : help
 
 

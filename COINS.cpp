@@ -47,15 +47,12 @@ int main() {
             unsigned int third = i/3;
             unsigned int fourth = i/4;
             auto sum = arr[half] + arr[third] + arr[fourth];
-            //cout << "max sum if broken " << sum << endl;
             if (sum > i) { //NOT sum > n
                 arr[i] = sum;
 
             }
 
         }
-        //for(long i =0; i <= n; i++) cout << arr[i] << " ";
-        //cout << endl;
         cout << arr[n] << endl;
         delete[] arr;
     }
